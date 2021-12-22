@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Pushster&display=swap');
+
+:root{
+    --dark-teal : #006d77;
+    --teal : #83c5be;
+    --light-gray : #edf6f9;
+    --light-gray-rgb : rgba(237, 246, 249, 0.75);
+    --golden : #ffddd2;
+    --brown : #e29578;  
+}
+
+body{
+    background-image: url("theme.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    font-family: 'Pushster', cursive;
+    font-size: 1.5rem;
+    text-shadow: var(--teal) 1px 1px;
+}
+
+.background-theme{
+    background-color: var(--light-gray-rgb);
+    margin: 5vh auto;
+    max-width: 70vw;
+    padding: 2rem;
+    border-radius: 30px;
+    border: 2px solid var(--dark-teal);
+    color: var(--dark-teal);
+}
+
+.heading{
+    font-family: 'Poppins', sans-serif;
+    color: var(--brown);
+    text-shadow: var(--dark-teal) 1px 1px;
+}
+
+.txt-box{
+    margin-left: 0.5rem;
+    background-color: var(--golden);
+    border: var(--dark-teal) solid 2px;
+    border-radius: 8px;
+    color: var(--teal);
+    text-shadow: var(--dark-teal) 1px 1px;
+    font-size: 1.5rem;
+}
+
+#btn-submit{
+    background-color: var(--golden);
+    border: var(--brown) outset 5px;
+    border-radius: 10px;
+    color: var(--dark-teal);
+    text-shadow: var(--teal) 1px 1px;
+    font-size: 1.2rem;
+    font-family: 'Pushster', cursive;
+    box-shadow: var(--teal) 3px 3px;
+    padding: 5px;
+}
+
+small{
+    display: none;
+    color: red;
+    font-size: 0.9rem;
+}
+
+#output{
+    display: none;
+    margin-top: 1rem;
+    border: var(--brown) dashed 3px;
+    color: var(--brown);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#result{
+    display: block;
+    color: var(--dark-teal);
+}
