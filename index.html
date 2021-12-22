@@ -8,16 +8,18 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Am I born in Leap Year?</h1>
     <div class="background-theme">
-        <p class="txt">Please fill your details below</p>
+        <h1 class="heading">Am I born in Leap Year?</h1>
+        <h4 class="txt">To check it out, Submit your details below</h4>
         <p class="txt">
-            Name
-             <input type="text" class="txt-box" id="name"> 
+            Name :
+            <input type="text" class="txt-box" id="name">
+            <small id="warning-username">name required *</small> 
         </p>
         <p class="txt">
-            Date of Birth
-             <input type="date" class="txt-box" id="dob" placeholder="dd-mm-yyyy"> 
+            Date of Birth : 
+            <input type="date" class="txt-box" id="dob" placeholder="dd-mm-yyyy">
+            <small id="warning-dob">DOB required *</small> 
         </p> 
         <button id="btn-submit">Submit</button> 
         <div id="output"></div>      
