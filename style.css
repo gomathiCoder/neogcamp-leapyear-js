@@ -1,15 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Pushster&display=swap');
 
-:root{
-    --dark-teal : #006d77;
-    --teal : #83c5be;
-    --light-gray : #edf6f9;
-    --light-gray-rgb : rgba(237, 246, 249, 0.75);
-    --golden : #ffddd2;
-    --brown : #e29578;  
+:root {
+    --dark-teal: #006d77;
+    --teal: #83c5be;
+    --light-gray-rgb: rgba(237, 246, 249, 0.75);
+    --golden: #ffddd2;
+    --brown: #e29578;
 }
 
-body{
+body {
     background-image: url("theme.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -22,7 +21,7 @@ body{
     padding: 0;
 }
 
-.background-theme{
+.background-theme {
     background-color: var(--light-gray-rgb);
     margin: 5vh auto;
     max-width: 70vw;
@@ -32,13 +31,13 @@ body{
     color: var(--dark-teal);
 }
 
-.heading{
+.heading {
     font-family: 'Poppins', sans-serif;
     color: var(--brown);
     text-shadow: var(--dark-teal) 1px 1px;
 }
 
-.txt-box{
+.txt-box {
     margin-left: 0.5rem;
     max-width: 200px;
     background-color: var(--golden);
@@ -49,7 +48,7 @@ body{
     font-size: 1.5rem;
 }
 
-#btn-submit{
+#btn-submit {
     background-color: var(--golden);
     border: var(--brown) outset 5px;
     border-radius: 10px;
@@ -61,13 +60,13 @@ body{
     padding: 5px;
 }
 
-small{
+small {
     display: none;
     color: red;
     font-size: 0.9rem;
 }
 
-#output{
+#output {
     display: none;
     margin-top: 1rem;
     border: var(--brown) dashed 3px;
@@ -76,13 +75,17 @@ small{
     padding: 5px;
 }
 
-#result{
+#result {
     display: block;
     color: var(--dark-teal);
 }
 
 @media only screen and (max-width : 900px) {
-    body{
+    body {
         font-size: 1rem;
+    }
+    .txt-box{
+        display: block;
+        margin: auto;
     }
 }
